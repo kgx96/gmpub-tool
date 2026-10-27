@@ -1,0 +1,6 @@
+{
+	"title": "My Addon",
+	"type": "tool",
+	"tags": ["fun", "build"],
+	"ignore": ["*.psd", "*.vcproj", "*.svn*", ".git*", "*.md", "*.bak"]
+}

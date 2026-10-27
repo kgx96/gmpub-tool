@@ -1,0 +1,7 @@
+# Made by gmpub-tool next to the .bat (your own settings and files)
+gmpub-tool.ini
+gmpub-ids.txt
+build/
+icons/
+notes/
+*.gma

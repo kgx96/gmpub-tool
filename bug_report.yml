@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in gmpub-tool does not work
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: gmpub-tool version
+      description: Shown at the top of the main menu.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11"
+  - type: dropdown
+    id: action
+    attributes:
+      label: What were you doing?
+      options:
+        - Finding Garry's Mod (first start)
+        - Listing addons
+        - Creating addon.json
+        - Packaging (B)
+        - Publishing a new item (A)
+        - Updating an item (C)
+        - Uploading an icon (F)
+        - Updating several addons (4)
+        - Settings
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Window output
+      description: Copy the text from the window (right-click the title bar > Edit > Select All, then Enter). Remove anything private.
+      render: text
