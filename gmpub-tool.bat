@@ -3,11 +3,13 @@ rem ===========================================================================
 rem  gmpub-tool - a menu for packaging and publishing Garry's Mod addons to the
 rem  Steam Workshop with GMod's own gmad.exe and gmpublish.exe.
 rem  Works for any addon. https://github.com/kgx96/gmpub-tool
+rem  Created by KGX (KGX PRODUCTIONS).
 rem  Copyright (c) 2026 KGX PRODUCTIONS. MIT License (see LICENSE).
 rem ===========================================================================
 setlocal EnableExtensions EnableDelayedExpansion
 set "TOOLVER=1.0.0"
 set "REPO=https://github.com/kgx96/gmpub-tool"
+set "CREDIT=Created by KGX (KGX PRODUCTIONS) - MIT License"
 title gmpub-tool %TOOLVER%
 
 rem Everything the tool keeps lives next to this file.
@@ -36,6 +38,7 @@ set "SEL="
 :MAIN
 cls
 echo ===== gmpub-tool %TOOLVER% =====
+echo %CREDIT%
 call :STEAMCHECK
 echo Garry's Mod : !GMODDIR!
 echo Addons      : !ADDONS!
@@ -222,6 +225,10 @@ echo IDs   : saved in gmpub-ids.txt as folder_name=ID, one per line.
 echo Builds: .gma files go to the build folder next to this file.
 echo.
 echo Full guide and updates: %REPO%
+echo.
+echo gmpub-tool %TOOLVER% - Created by KGX (KGX PRODUCTIONS).
+echo Copyright (c) 2026 KGX PRODUCTIONS. Free and open source under the MIT License:
+echo use, change and share it; keep the copyright and license notice in copies.
 echo.
 set "CONF="
 set /p "CONF=Open the guide in your browser? (Y/N): "

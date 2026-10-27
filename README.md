@@ -1,5 +1,7 @@
 # gmpub-tool
 
+**Created by KGX (KGX PRODUCTIONS)** · Free and open source under the [MIT License](LICENSE)
+
 A menu for packaging and publishing **Garry's Mod addons** to the **Steam Workshop**, built on GMod's own `gmad.exe` and `gmpublish.exe`. One `.bat` file: nothing to install, works with any addon.
 
 - Finds your Garry's Mod install through Steam (any Steam library folder)
@@ -145,8 +147,10 @@ gmpublish.exe list
 
 Bug reports and ideas: open an [issue](../../issues). Pull requests are welcome; please keep the tool a single `.bat` with no extra installs, and keep it **ASCII with CRLF line endings** (`.gitattributes` handles that in Git).
 
-## License
+## Credits and license
 
-[MIT](LICENSE). Copyright (c) 2026 KGX PRODUCTIONS.
+Created by **KGX** (KGX PRODUCTIONS).
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 KGX PRODUCTIONS. You may use, change and share gmpub-tool, including in your own projects, as long as the copyright and license notice stay in every copy.
 
 Not affiliated with Facepunch Studios or Valve. Garry's Mod, Steam and the Steam Workshop are trademarks of their owners; gmad.exe and gmpublish.exe ship with Garry's Mod.

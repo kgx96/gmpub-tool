@@ -1,5 +1,7 @@
 # Changelog
 
+gmpub-tool by KGX (KGX PRODUCTIONS). MIT License.
+
 ## 1.0.0
 First release.
 - Finds Garry's Mod through Steam, including other Steam library folders; asks once if it can't.
